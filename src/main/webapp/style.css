@@ -1,0 +1,44 @@
+#regForm {
+    background-color: #ffffff;
+    min-width: 300px;
+}
+
+/* Style the input fields */
+input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+    background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+    display: none;
+}
+
+.fontSans{
+    font-family: 'Juice1', sans-serif;
+}
+.fontSerif{
+    font-family: 'Juice2', serif;
+}
+textarea{
+    font-family: 'Juice2', serif;
+    outline: none;
+}
+input{
+    outline: none;
+}
+
+@font-face {
+    font-family: Juice1;
+    src: url("/fonts/Futura Condensed Medium.otf");
+}
+@font-face {
+    font-family: Juice2;
+    src: url("/fonts/Bodoni 72.ttc");
+}
